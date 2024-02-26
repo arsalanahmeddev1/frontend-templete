@@ -1,0 +1,233 @@
+/* 10px = 0.625rem
+12px = 0.75rem
+14px = 0.875rem
+16px = 1rem (base)
+18px = 1.125rem
+20px = 1.25rem
+24px = 1.5rem
+30px = 1.875rem
+32px = 2rem */
+
+[class^="box-"] {
+  display: none;
+}
+[class^="box-"].showfirst {
+  display: block;
+}
+:root {
+  --primary-theme: #13063d;
+  --secondry-theme: #7939fe;
+  --gray-dark: #282828;
+  --default-color: #fff;
+  --black: #000;
+  --font-mont: "mont";
+  --font-poppins: "Poppins", sans-serif;
+  --text-1: 0.1rem;
+  --text-2: 0.2rem;
+  --text-3: 0.3rem;
+  --text-4: 0.4rem;
+  --text-5: 0.5rem;
+  --text-6: 0.6rem;
+  --text-7: 0.7rem;
+  --text-8: 0.8rem;
+  --text-9: 0.9rem;
+  --text-10: 1rem;
+  --text-11: 1.1rem;
+  --text-12: 1.2rem;
+  --text-13: 1.3rem;
+  --text-14: 1.4rem;
+  --text-15: 1.5rem;
+  --text-16: 1.6rem;
+  --text-17: 1.7rem;
+  --text-18: 1.8rem;
+  --text-19: 1.9rem;
+  --text-20: 2rem;
+  --text-21: 2.1rem;
+  --text-22: 2.2rem;
+  --text-23: 2.3rem;
+  --text-24: 2.4rem;
+  --text-25: 2.5rem;
+  --text-26: 2.6rem;
+  --text-27: 2.7rem;
+  --text-28: 2.8rem;
+  --text-29: 2.9rem;
+  --text-30: 3rem;
+  --text-31: 3.1rem;
+  --text-32: 3.2rem;
+  --text-33: 3.3rem;
+  --text-34: 3.4rem;
+  --text-35: 3.5rem;
+  --text-36: 3.6rem;
+  --text-37: 3.7rem;
+  --text-38: 3.8rem;
+  --text-39: 3.9rem;
+  --text-40: 4rem;
+  --text-41: 4.1rem;
+  --text-42: 4.2rem;
+  --text-43: 4.3rem;
+  --text-44: 4.4rem;
+  --text-45: 4.5rem;
+  --text-46: 4.6rem;
+  --text-47: 4.7rem;
+  --text-48: 4.8rem;
+  --text-49: 4.9rem;
+  --text-50: 5rem;
+  --text-51: 5.1rem;
+  --text-52: 5.2rem;
+  --text-53: 5.3rem;
+  --text-54: 5.4rem;
+  --text-55: 5.5rem;
+  --text-56: 5.6rem;
+  --text-57: 5.7rem;
+  --text-58: 5.8rem;
+  --text-59: 5.9rem;
+  --text-60: 6rem;
+  --text-61: 6.1rem;
+  --text-62: 6.2rem;
+  --text-63: 6.3rem;
+  --text-64: 6.4rem;
+  --text-65: 6.5rem;
+  --text-66: 6.6rem;
+  --text-67: 6.7rem;
+  --text-68: 6.8rem;
+  --text-69: 6.9rem;
+  --text-70: 7rem;
+  --text-71: 7.1rem;
+  --text-72: 7.2rem;
+  --text-73: 7.3rem;
+  --text-74: 7.4rem;
+  --text-75: 7.5rem;
+  --text-76: 7.6rem;
+  --text-77: 7.7rem;
+  --text-78: 7.8rem;
+  --text-79: 7.9rem;
+  --text-80: 8rem;
+  --text-81: 8.1rem;
+  --text-82: 8.2rem;
+  --text-83: 8.3rem;
+  --text-84: 8.4rem;
+  --text-85: 8.5rem;
+  --text-86: 8.6rem;
+  --text-87: 8.7rem;
+  --text-88: 8.8rem;
+  --text-89: 8.9rem;
+  --text-90: 9rem;
+  --text-91: 9.1rem;
+  --text-92: 9.2rem;
+  --text-93: 9.3rem;
+  --text-94: 9.4rem;
+  --text-95: 9.5rem;
+  --text-96: 9.6rem;
+  --text-97: 9.7rem;
+  --text-98: 9.8rem;
+  --text-99: 9.9rem;
+  --text-100: 10rem;
+  --text-101: 10.1rem;
+  --text-102: 10.2rem;
+  --text-103: 10.3rem;
+  --text-104: 10.4rem;
+  --text-105: 10.5rem;
+  --text-106: 10.6rem;
+  --text-107: 10.7rem;
+  --text-108: 10.8rem;
+  --text-109: 10.9rem;
+  --text-110: 11rem;
+  --text-111: 11.1rem;
+  --text-112: 11.2rem;
+  --text-113: 11.3rem;
+  --text-114: 11.4rem;
+  --text-115: 11.5rem;
+  --text-116: 11.6rem;
+  --text-117: 11.7rem;
+  --text-118: 11.8rem;
+  --text-119: 11.9rem;
+  --text-120: 12rem;
+  --text-121: 12.1rem;
+  --text-122: 12.2rem;
+  --text-123: 12.3rem;
+  --text-124: 12.4rem;
+  --text-125: 12.5rem;
+  --text-126: 12.6rem;
+  --text-127: 12.7rem;
+  --text-128: 12.8rem;
+  --text-129: 12.9rem;
+  --text-130: 13rem;
+  --text-131: 13.1rem;
+  --text-132: 13.2rem;
+  --text-133: 13.3rem;
+  --text-134: 13.4rem;
+  --text-135: 13.5rem;
+  --text-136: 13.6rem;
+  --text-137: 13.7rem;
+  --text-138: 13.8rem;
+  --text-139: 13.9rem;
+  --text-140: 14rem;
+  --text-141: 14.1rem;
+  --text-142: 14.2rem;
+  --text-143: 14.3rem;
+  --text-144: 14.4rem;
+  --text-145: 14.5rem;
+  --text-146: 14.6rem;
+  --text-147: 14.7rem;
+  --text-148: 14.8rem;
+  --text-149: 14.9rem;
+  --text-150: 15rem;
+  --shadow-normal: 1px 1px 11px 0px rgb(105 105 177 / 20%);
+  font-size: 62.5%;
+}
+::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: var(--theme-light);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--theme-color);
+}
+
+body {
+  font-family: var(--font-mont);
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: var(--theme-color);
+}
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+@media (max-width: 1440px) {
+  :root {
+    font-size: 56%;
+  }
+}
+@media (max-width: 1280px) {
+  :root {
+    font-size: 48%;
+  }
+}
+@media (max-width: 992px) {
+  :root {
+    font-size: 46%;
+  }
+}
+@media (max-width: 767px) {
+  :root {
+    font-size: 40%;
+  }
+}

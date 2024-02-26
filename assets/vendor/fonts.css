@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'mont';
+    font-weight: 400;
+    src: url(../fonts/mont.ttf);
+}
+@font-face {
+    font-family: 'mont';
+    font-weight: 700;
+    src: url(../fonts/mont-b.ttf);
+}
+@font-face {
+    font-family: 'mont';
+    font-weight: 600;
+    src: url(../fonts/mont-sb.ttf);
+}
